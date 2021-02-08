@@ -5,14 +5,6 @@
     color: #222;
 }
 
-#content{
-    width: 100%;
-    height: 100vh;
-    background-image: url('header-background.jpeg');
-    background-position: center;
-    background-size: cover;
-}
-
 a{
     text-decoration: none;
 }
@@ -35,12 +27,20 @@ nav li{
 }
 
 #navBar li{
+    
     display: inline-block;
     list-style: none;
     padding-right: 20px;
 }
 #navBar span{
-    border: 2px solid black; padding: 4px; border-radius: 4px;
+    border: 2px solid black; 
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#navBar i{
+    cursor: pointer;
 }
 
 #text {
@@ -51,3 +51,134 @@ nav li{
 #text span{
     color: pink;
 }
+#content1 {
+    width: 100%;
+    height: 92vh;
+    background: linear-gradient(rgba(255, 204, 0, .25),
+    rgba(255, 204, 0, .25)),
+    url('header-background.jpeg');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+#mainText {
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+}
+
+#mainText span {
+    color: #ef7998;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+#mainText button {
+    border: 3px solid #000;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    height: 45px;
+    width: 105px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#contentBottom {
+    width: 100%;
+    height: 70vh;
+    background: #fff;
+}
+
+#mid {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#aboutUs {
+    width: 520px;
+    height: 460px;
+    float: left;
+    font-size: 40px;
+    padding: 50px;
+}
+
+#aboutUs button {
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    height: 45px;
+    width: 105px;
+    margin: 30px 0 0 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+#aboutUs p {
+    padding-top: 15px;
+    color: #555;
+    font-size: 18px;
+}
+
+#aboutUs span {
+    font-size: 63px;
+    color: #ef7998;
+    font-weight: 700;
+}
+
+#babeczki {
+    float: left;
+    width: 800px;
+    height: 390px;
+    position: relative;
+    border: 10px solid #f9e494;
+}
+
+#babeczki img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 410px;
+    padding: 10px;
+}
+
+#footer {
+    width: 100%;
+    height: 33vh;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 50px;
+}
+
+#footer span {
+    font-size: 63px;
+    font-weight: 700;
+    color: #ef7998;
+}
+
+#footer li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 30px 0 30px;
+}
+
+#footer p {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
